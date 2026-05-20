@@ -1,4 +1,4 @@
-# JCICAAA3-CLOUD (KIM)
+# W. Kim | AI/ML & Computer Vision Portfolio
 
 > AI/ML · Computer Vision · Road Damage Segmentation · Forecasting · LLM Applications
 
