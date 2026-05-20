@@ -4,6 +4,7 @@
 
 Computer Science undergraduate at Hankuk University of Foreign Studies.  
 I build research-oriented AI/ML projects that connect model design, experiment evidence, visual analysis, and deployable portfolio presentation.
+
 한국외대 컴퓨터공학전공 4학년 재학중입니다. AI/ML·컴퓨터비전 중심으로 도로 세그멘테이션, 객체 탐지, 금융 예측, LLM 응용 시스템등등 설계·개발합니다. 
 
 ---
