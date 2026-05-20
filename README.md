@@ -1,4 +1,4 @@
-# W. Kim
+# WS. KIM
 
 > AI/ML · Computer Vision · Road Damage Segmentation · Forecasting · LLM Applications
 
