@@ -11,10 +11,10 @@ I build research-oriented AI/ML projects that connect model design, experiment e
 
 ## About Me
 
-- **Major:** Computer Science
-- **Double Major:** Northeast Asian Diplomacy and Commerce
-- **Languages:** Korean · English · Japanese
-
+- **University:** Hankuk University of Foreign Studies (한국외국어대학교)
+- **Major:** Computer Engineering (컴퓨터공학전공)
+- **Double Major:** Northeast Asian Diplomacy and Commerce (동북아시아 외교통상전공)
+- **Languages:** Korean · English · Japanese (한국어, 영어, 일본어)
 ---
 
 ## Research Focus
