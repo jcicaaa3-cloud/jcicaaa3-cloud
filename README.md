@@ -1,92 +1,89 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&height=160&color=F3EFCB&text=W.%20Kim%27s%20GitHub&fontColor=00313C&fontSize=42&fontAlignY=45&animation=fadeIn" />
-</p>
+# W. Kim
 
-<h3 align="center">AI/ML & Computer Vision Portfolio</h3>
+> AI/ML · Computer Vision · Road Damage Segmentation · Forecasting · LLM Applications
 
-<p align="center">
-  Computer Science undergraduate at Hankuk University of Foreign Studies.<br/>
-  AI/ML · Computer Vision · Road Damage Segmentation · Forecasting · LLM Applications
-</p>
+Computer Science undergraduate at Hankuk University of Foreign Studies.  
+I build research-oriented AI/ML projects that connect model design, experiment evidence, visual analysis, and deployable portfolio presentation.
 
 ---
 
-<h3 align="center">Tech Stack</h3>
+## Research Focus
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-</p>
+| Area | Description |
+|---|---|
+| **Computer Vision** | Semantic segmentation, object detection, visual evidence analysis |
+| **Road Damage Segmentation** | Boundary representation degradation, lightweight segmentation, boundary-guided fusion |
+| **AI / Data Forecasting** | Financial prediction, urban scenario forecasting, structured-data modeling |
+| **LLM Applications** | Prototype-level LLM service design and AI-assisted reporting |
+| **Deployment & Portfolio** | GitHub Pages, static demos, experiment portals, research documentation |
 
 ---
 
-## Main Research Project
+## Main Project
 
-### LiteRaceSegNet: Road Damage Segmentation
+### LiteRaceSegNet: Boundary-Aware Road Damage Segmentation
 
 LiteRaceSegNet is a lightweight semantic segmentation project for road-damage analysis.  
-The project analyzes boundary representation degradation in road-damage segmentation and explores a lightweight Boundary-Guided Fusion architecture for improving boundary preservation.
+The project investigates boundary representation degradation in road-damage segmentation and explores a lightweight Boundary-Guided Fusion architecture for improving boundary preservation.
 
-**Key Focus Areas**
+**Core keywords**
 
-- Road-damage semantic segmentation
-- Boundary-aware lightweight CNN architecture
-- Boundary-guided feature fusion
-- CPU/GPU inference evidence
-- Ablation study and threshold analysis
-- Visual evidence review and research reporting
+`Semantic Segmentation` · `Boundary-Guided Fusion` · `Lightweight CNN` · `Road Damage Analysis` · `CPU/GPU Evidence` · `Ablation Study`
 
 **Repositories**
 
-- [LiteRaceSegNet-V13-Portal-Clean](https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean)
-- [LiteRaceSegNet-V11](https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V11)
+| Repository | Purpose |
+|---|---|
+| [LiteRaceSegNet-V13-Portal-Clean](https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean) | Research portal, visual evidence, presentation-ready project archive |
+| [LiteRaceSegNet-V11](https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V11) | Experimental implementation and boundary-aware segmentation pipeline |
 
 ---
 
-## AI / Data Projects
+## Selected Projects
 
-### Financial Future Prediction Service
-
-Machine learning project for financial and company-performance prediction using structured data and future-oriented analysis.
-
-- [financial-future-prediction-service](https://github.com/jcicaaa3-cloud/financial-future-prediction-service)
-
-### Machilens: Shibuya AI Predictor
-
-AI-powered urban scenario forecasting demo focused on Shibuya, designed with a recruiter-friendly HTML preview and portfolio presentation.
-
-- [machilens-shibuya-ai-predictor](https://github.com/jcicaaa3-cloud/machilens-shibuya-ai-predictor)
-
-### LEO Handover AI Optimizer
-
-AI-assisted research prototype for LEO satellite handover optimization and simulation-based analysis.
-
-- [leo-handover-ai-optimizer](https://github.com/jcicaaa3-cloud/leo-handover-ai-optimizer)
+| Project | Description |
+|---|---|
+| [Financial Future Prediction Service](https://github.com/jcicaaa3-cloud/financial-future-prediction-service) | Machine learning project for financial and company-performance prediction |
+| [Machilens: Shibuya AI Predictor](https://github.com/jcicaaa3-cloud/machilens-shibuya-ai-predictor) | Urban scenario forecasting demo focused on Shibuya |
+| [LEO Handover AI Optimizer](https://github.com/jcicaaa3-cloud/leo-handover-ai-optimizer) | AI-assisted LEO satellite handover optimization prototype |
 
 ---
 
-## GitHub Stats
+## Tech Stack
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jcicaaa3-cloud&show_icons=true&theme=default&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jcicaaa3-cloud&layout=compact&theme=default&hide_border=true" height="160"/>
-</p>
+**AI / ML**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+
+**Web / Deployment**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+
+---
+
+## Project Direction
+
+My portfolio focuses on building AI systems with visible evidence:
+
+- model design
+- dataset and experiment organization
+- quantitative evaluation
+- visual comparison
+- research-style documentation
+- deployable demo pages
 
 ---
 
 ## Profile Note
 
 Avatar: AI-generated.  
-Academic and portfolio-oriented project archive.
+This GitHub profile is maintained as an academic and portfolio-oriented project archive.
