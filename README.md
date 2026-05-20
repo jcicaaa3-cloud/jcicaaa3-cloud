@@ -9,6 +9,14 @@ I build research-oriented AI/ML projects that connect model design, experiment e
 
 ---
 
+## About Me
+
+- **Major:** Computer Science
+- **Double Major:** Northeast Asian Diplomacy and Commerce
+- **Languages:** Korean · English · Japanese
+
+---
+
 ## Research Focus
 
 | Area | Description |
