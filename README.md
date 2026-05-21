@@ -97,3 +97,12 @@ My portfolio focuses on building AI systems with visible evidence:
 
 Avatar: AI-generated.  
 This GitHub profile is maintained as an academic and portfolio-oriented project archive.
+
+## Featured Project
+
+### LiteRaceSegNet V13 – Road Damage Segmentation Portal
+
+Clean GitHub Pages portfolio for a lightweight road-damage semantic segmentation experiment with boundary-guided analysis, CPU/GPU evidence, and visual result documentation.
+
+- Repository: https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean
+- Live Portal: https://jcicaaa3-cloud.github.io/LiteRaceSegNet-V13-Portal-Clean/
