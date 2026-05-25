@@ -1,11 +1,10 @@
 <p align="center">
-  <img src="./assets/profile-main-poster.jpg" alt="LiteRaceSegNet and TRACE-Eval GitHub Project Banner" width="100%">
+  <img src="assets/profile-main-poster.png" alt="LiteRaceSegNet and TRACE-Eval GitHub Project Banner" width="100%">
 </p>
 
 <p align="center">
   <sub>AI-generated project mascot visual for GitHub branding. Not a personal portrait.</sub>
 </p>
-
 
 # W. Kim | AI/ML & Computer Vision Portfolio
 
