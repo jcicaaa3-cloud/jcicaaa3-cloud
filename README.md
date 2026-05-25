@@ -58,6 +58,22 @@ The project investigates boundary representation degradation in road-damage segm
 
 ---
 
+## Project Naming Notes
+
+### TRACE-Eval
+
+TRACE-Eval refers to my prototype evaluation framework for low-precision inference stability and deployment readiness.
+
+In this portfolio, TRACE-Eval is used for checking FP32 / FP16 / INT8 behavior, runtime consistency, latency changes, and compatibility issues across inference settings.
+
+It is an independent academic/portfolio project name and is not affiliated with any similarly named external products, services, or organizations.
+
+### HPLS-Eval
+
+HPLS-Eval is kept separate for medical / lesion-related evaluation experiments.  
+I separate TRACE-Eval and HPLS-Eval to avoid mixing road-damage deployment evaluation with medical-domain stability experiments.
+---
+
 ## Selected Projects
 
 | Project | Description |
