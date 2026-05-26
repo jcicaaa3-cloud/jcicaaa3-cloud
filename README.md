@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="assets/profile-main-poster.png" alt="LiteRaceSegNet and TRACE-Eval GitHub Project Banner" width="100%">
-</p>
-
-<p align="center">
-  <sub>AI-generated project mascot visual for GitHub branding. Not a personal portrait.</sub>
-</p>
-
 # W. Kim | AI/ML & Computer Vision Portfolio
 
 > AI/ML · Computer Vision · Road Damage Segmentation · Forecasting · LLM Applications
@@ -131,3 +123,14 @@ Clean GitHub Pages portfolio for a lightweight road-damage semantic segmentation
 
 - Repository: https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean
 - Live Portal: https://jcicaaa3-cloud.github.io/LiteRaceSegNet-V13-Portal-Clean/
+
+
+
+<p align="center">
+  <img src="assets/profile-main-poster.png" alt="LiteRaceSegNet and TRACE-Eval GitHub Project Banner" width="100%">
+</p>
+
+<p align="center">
+  <sub>AI-generated project mascot visual for GitHub branding. Not a personal portrait.</sub>
+</p>
+
