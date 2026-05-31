@@ -127,10 +127,10 @@ Clean GitHub Pages portfolio for a lightweight road-damage semantic segmentation
 
 
 <p align="center">
-  <img src="assets/profile-main-poster.png" alt="LiteRaceSegNet and TRACE-Eval GitHub Project Banner" width="100%">
+  <img src="assets/profile-main-poster.png" alt="W. Kim AI/ML and Computer Vision Portfolio Banner" width="100%">
 </p>
 
 <p align="center">
-  <sub>AI-generated project mascot visual for GitHub branding. Not a personal portrait.</sub>
+  <sub>AI-generated visual for GitHub portfolio branding. Not a personal portrait.</sub>
 </p>
 
