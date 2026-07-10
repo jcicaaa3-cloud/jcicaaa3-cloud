@@ -44,7 +44,7 @@ Lightweight boundary-aware network for road-damage semantic segmentation.
 
 ## Selected Project
 
-### [Financial Risk Scoring Service](https://github.com/jcicaaa3-cloud/financial-future-prediction-service)
+### [Financial Risk Scoring Service] (https://github.com/jcicaaa3-cloud/financial-risk-scoring-service)
 
 Structured-data ML service for estimating future financial deterioration risk.
 
