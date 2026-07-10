@@ -1,23 +1,11 @@
-<p align="center">
-  <img src="assets/profile-main-poster.png" alt="W. Kim AI/ML and Computer Vision Portfolio Banner" width="100%">
-</p>
+Computer Vision / ML Engineer focused on lightweight segmentation, model evaluation, and deployment.
 
-<p align="center">
-  <sub>AI-generated visual for GitHub portfolio branding. Not a personal portrait.</sub>
-</p>
+한국외국어대학교 컴퓨터공학전공 재학 중이며, 경량 컴퓨터 비전 모델의 설계부터 성능 검증, API 및 데모 구현까지 수행합니다.
 
+## Featured Project
 
-# W. Kim | AI/ML & Computer Vision Portfolio
+**LiteRaceSegNet** — Lightweight boundary-aware network for road-damage segmentation
 
-> AI/ML · Computer Vision · Road Damage Segmentation · Forecasting · LLM Applications
-
-Computer Science undergraduate at Hankuk University of Foreign Studies.  
-I build research-oriented AI/ML projects that connect model design, experiment evidence, visual analysis, and deployable portfolio presentation.
-
-한국외대 컴퓨터공학전공 4학년 재학중입니다. AI/ML·컴퓨터비전 중심으로 도로 세그멘테이션, 객체 탐지, 금융 예측, LLM 응용 시스템등등 설계,개발합니다. 
-
-
----
 
 ## About Me
 
@@ -116,13 +104,6 @@ My portfolio focuses on building AI systems with visible evidence:
 - visual comparison
 - research-style documentation
 - deployable demo pages
-
----
-
-## Profile Note
-
-Avatar: AI-generated.  
-This GitHub profile is maintained as an academic and portfolio-oriented project archive.
 
 ## Featured Project
 
