@@ -1,117 +1,166 @@
-Computer Vision / ML Engineer focused on lightweight segmentation, model evaluation, and deployment.
+# Wonseok Kim
 
-한국외국어대학교 컴퓨터공학전공 재학 중이며, 경량 컴퓨터 비전 모델의 설계부터 성능 검증, API 및 데모 구현까지 수행합니다.
+**Computer Vision / ML Engineer**
+
+경량 컴퓨터 비전 모델을 설계하고, 실험 결과를 검증하여 API와 데모 형태로 연결합니다.
+모델 성능만 제시하는 것이 아니라 데이터 검증, 정량 평가, 추론 속도 측정, 서비스 연동까지 직접 구현하는 것을 목표로 합니다.
+
+* Hankuk University of Foreign Studies
+* Computer Engineering
+* Double Major in Northeast Asian Diplomacy and Commerce
+* Focused on Computer Vision, ML Evaluation, and Deployment
+
+---
 
 ## Featured Project
 
-**LiteRaceSegNet** — Lightweight boundary-aware network for road-damage segmentation
+### [LiteRaceSegNet](https://github.com/jcicaaa3-cloud/literacesegnet)
 
+Lightweight boundary-aware network for road-damage semantic segmentation.
 
-## About Me
+도로 손상 영역의 경계 정보가 경량 모델에서 손실되는 문제를 분석하고, detail/context feature와 boundary-guided fusion을 적용한 세그멘테이션 모델입니다.
 
-- **University:** Hankuk University of Foreign Studies (한국외국어대학교)
-- **Major:** Computer Engineering (컴퓨터공학전공)
-- **Double Major:** Northeast Asian Diplomacy and Commerce (동북아시아 외교통상전공)
-- **Languages:** Korean · English · Japanese (한국어, 영어, 일본어)
----
+| Metric       |         Result |
+| ------------ | -------------: |
+| mIoU         |         0.8072 |
+| Damage IoU   |         0.7113 |
+| Parameters   |         0.125M |
+| CUDA Latency | 3.097 ms/image |
 
-## Research Focus
+### What I Built
 
-| Area | Description |
-|---|---|
-| **Computer Vision** | Semantic segmentation, object detection, visual evidence analysis |
-| **Road Damage Segmentation** | Boundary representation degradation, lightweight segmentation, boundary-guided fusion |
-| **AI / Data Forecasting** | Financial prediction, urban scenario forecasting, structured-data modeling |
-| **LLM Applications** | Prototype-level LLM service design and AI-assisted reporting |
-| **Deployment & Portfolio** | GitHub Pages, static demos, experiment portals, research documentation |
+* 경량 도로 손상 세그멘테이션 모델 설계 및 구현
+* 이미지와 마스크의 파일명, 해상도, 누락 여부를 검사하는 데이터 검증 과정 구축
+* mIoU, Damage IoU, 추론 지연시간 기반 성능 평가
+* 구조 및 손실 함수 변경에 따른 ablation experiment 수행
+* PyTorch 모델을 FastAPI 추론 API 및 웹 데모와 연동
+* 예측 마스크, overlay 이미지 및 정량 결과를 활용한 시각적 검증
 
----
+### Tech Stack
 
-## Main Project
-
-### LiteRaceSegNet: Boundary-Aware Road Damage Segmentation
-
-LiteRaceSegNet is a lightweight semantic segmentation project for road-damage analysis.  
-The project investigates boundary representation degradation in road-damage segmentation and explores a lightweight Boundary-Guided Fusion architecture for improving boundary preservation.
-
-**Core keywords**
-
-`Semantic Segmentation` · `Boundary-Guided Fusion` · `Lightweight CNN` · `Road Damage Analysis` · `CPU/GPU Evidence` · `Ablation Study`
-
-**Repositories**
-
-| Repository | Purpose |
-|---|---|
-| [LiteRaceSegNet-V13-Portal-Clean](https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean) | Research portal, visual evidence, presentation-ready project archive |
-| [LiteRaceSegNet-V11](https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V11) | Experimental implementation and boundary-aware segmentation pipeline |
+`Python` `PyTorch` `OpenCV` `NumPy` `Semantic Segmentation` `FastAPI`
 
 ---
 
-## Project Naming Notes
+## Selected Project
 
-### TRACE-Eval
+### [Financial Risk Scoring Service](https://github.com/jcicaaa3-cloud/financial-future-prediction-service)
 
-TRACE-Eval refers to my prototype evaluation framework for low-precision inference stability and deployment readiness.
+Structured-data ML service for estimating future financial deterioration risk.
 
-In this portfolio, TRACE-Eval is used for checking FP32 / FP16 / INT8 behavior, runtime consistency, latency changes, and compatibility issues across inference settings.
+단순 모델 학습에 그치지 않고 데이터 처리, 시간 순서 기반 검증, API 추론, batch scoring 및 monitoring artifact까지 연결한 ML 엔지니어링 프로젝트입니다.
 
-It is an independent academic/portfolio project name and is not affiliated with any similarly named external products, services, or organizations.
+### Key Features
 
-### HPLS-Eval
+* 시간 순서를 고려한 train/validation 분리
+* 데이터 누수를 방지하기 위한 feature generation
+* FastAPI 기반 단건 추론 API
+* batch scoring pipeline
+* Docker 실행 환경
+* GitHub Actions 기반 자동 테스트
+* synthetic data 사용 범위와 프로젝트 한계 명시
 
-HPLS-Eval is kept separate for medical / lesion-related evaluation experiments.  
-I separate TRACE-Eval and HPLS-Eval to avoid mixing road-damage deployment evaluation with medical-domain stability experiments.
----
+### Tech Stack
 
-## Selected Projects
-
-| Project | Description |
-|---|---|
-| [Financial Future Prediction Service](https://github.com/jcicaaa3-cloud/financial-future-prediction-service) | Machine learning project for financial and company-performance prediction |
-| [Machilens: Shibuya AI Predictor](https://github.com/jcicaaa3-cloud/machilens-shibuya-ai-predictor) | Urban scenario forecasting demo focused on Shibuya |
-| [LEO Handover AI Optimizer](https://github.com/jcicaaa3-cloud/leo-handover-ai-optimizer) | AI-assisted LEO satellite handover optimization prototype |
+`Python` `FastAPI` `scikit-learn` `Pandas` `Docker` `GitHub Actions`
 
 ---
 
-## Tech Stack
+## Engineering Approach
 
-**AI / ML**
+프로젝트를 진행할 때 다음 과정을 중요하게 생각합니다.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+### 1. Validate the Data
 
-**Web / Deployment**
+모델을 학습하기 전에 데이터 파일의 누락, 이름 불일치, 해상도 차이, 잘못된 mask value를 먼저 검사합니다.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+### 2. Measure the Result
+
+정확도 하나만 제시하지 않고 task-specific metric, latency, parameter count와 qualitative result를 함께 확인합니다.
+
+### 3. Analyze Failures
+
+평균 성능뿐 아니라 작은 손상 영역, 불명확한 경계, 복잡한 배경 등 모델이 실패하는 조건을 분석합니다.
+
+### 4. Connect the Model
+
+학습된 모델을 추론 API와 웹 데모로 연결하여 실제 입력과 출력 흐름을 검증합니다.
+
+### 5. Document the Evidence
+
+실험 설정, 평가 조건, 결과 이미지, 한계점을 문서화하여 결과를 재현하고 검토할 수 있도록 정리합니다.
 
 ---
 
-## Project Direction
+## Technical Skills
 
-My portfolio focuses on building AI systems with visible evidence:
+### AI / Machine Learning
 
-- model design
-- dataset and experiment organization
-- quantitative evaluation
-- visual comparison
-- research-style documentation
-- deployable demo pages
+* Python
+* PyTorch
+* OpenCV
+* NumPy
+* Pandas
+* scikit-learn
+* Semantic Segmentation
+* Object Detection
+* Model Evaluation
+* Ablation Study
 
-## Featured Project
+### Backend / Deployment
 
-### LiteRaceSegNet V13 – Road Damage Segmentation Portal
+* FastAPI
+* REST API
+* Docker
+* GitHub Actions
+* AWS
+* Linux
+* GitHub Pages
 
-Clean GitHub Pages portfolio for a lightweight road-damage semantic segmentation experiment with boundary-guided analysis, CPU/GPU evidence, and visual result documentation.
+### Development
 
-- Repository: https://github.com/jcicaaa3-cloud/LiteRaceSegNet-V13-Portal-Clean
-- Live Portal: https://jcicaaa3-cloud.github.io/LiteRaceSegNet-V13-Portal-Clean/
+* Git
+* GitHub
+* JavaScript
+* HTML
+* CSS
+* WSL
 
+---
 
+## Education
+
+**Hankuk University of Foreign Studies**
+
+* Major: Computer Engineering
+* Double Major: Northeast Asian Diplomacy and Commerce
+
+---
+
+## Languages
+
+* Korean
+* English
+* Japanese
+
+---
+
+## Current Focus
+
+현재는 Vision-Language-Action 에이전트의 실행 실패를 감지하고 복구하는 외부 검증 계층을 연구하고 있습니다.
+
+주요 관심 분야는 다음과 같습니다.
+
+* Vision-Language-Action agents
+* Robot action failure detection
+* World-state verification
+* Recovery planning
+* Robustness evaluation under environmental perturbations
+
+연구 결과와 재현 가능한 실험 코드가 정리되면 별도의 공개 저장소로 제공할 예정입니다.
+
+---
+
+## Contact
+
+프로젝트와 구현 세부 내용은 각 저장소의 README 및 실험 문서에서 확인할 수 있습니다.
