@@ -86,7 +86,7 @@ Current coursework includes **Computer Security**.
 ##  Languages & Contact
 
 Korean · Japanese · English  
-[GitHub](https://github.com/jcicaaa3-cloud) · [LinkedIn](https://www.linkedin.com/in/%EA%B9%80%EC%9B%90%EC%84%9D-wonseok-kim-1ab559407/)
+[GitHub](https://github.com/jcicaaa3-cloud) · [LinkedIn](www.linkedin.com/in/jcicaaa3)
 
 ---
 
