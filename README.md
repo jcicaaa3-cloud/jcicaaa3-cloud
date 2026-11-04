@@ -38,7 +38,7 @@ Computer Engineering Undergraduate @ Hankuk University of Foreign Studies (HUFS)
 - 공개 데이터셋 및 기존 모델의 재현성과 평가 방법 학습
 - 참고 연구: [MLRan dataset and research code](https://github.com/faithfulco/mlran)
 
-분석 결과는 확인 가능한 근거와 함께 공개할 예정입니다. 실행 가능한 악성코드 원본이나 피해자 데이터는 이 프로필 저장소에 게시하지 않습니다.
+분석 결과는 확인 가능한 근거와 함께 공개할 예정입니다. 당연하지만 실행 가능한 악성코드 원본이나 피해자 데이터는 이 프로필 저장소에 게시하지 않습니다. 
 
 ---
 
