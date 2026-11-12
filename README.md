@@ -1,52 +1,49 @@
 # jcicaaa3
 
-한국외국어대학교에서 컴퓨터공학을 전공하고, 동북아외교통상을 복수전공하고 있습니다.
+[日本語](README_JA.md) · [한국어](README_KO.md)
 
-최근에는 Windows 랜섬웨어를 분석하고, 머신러닝 기반 악성코드 탐지를 준비하고 있습니다. 이전에 진행한 컴퓨터비전·머신러닝 프로젝트와 로봇 행동 평가 연구도 함께 정리하고 있습니다.
+Computer engineering student at Hankuk University of Foreign Studies, double majoring in Northeast Asian Diplomacy and Commerce. I work on security and machine learning together: I analyze Windows ransomware, and I am starting on ML-based malware detection.
 
-[개인 연구 사이트](https://jcicaaa3-cloud.github.io/) · [연구 글](https://jcicaaa3-cloud.github.io/research/) · [프로젝트](https://jcicaaa3-cloud.github.io/projects/)
+[Site](https://jcicaaa3-cloud.github.io/en/) · [Posts](https://jcicaaa3-cloud.github.io/en/research/) · [Projects](https://jcicaaa3-cloud.github.io/en/projects/) · [jcicaaa3@gmail.com](mailto:jcicaaa3@gmail.com)
 
-## 랜섬웨어 분석
+## Malware analysis
 
-### Calipso (2026)
+### Calipso ransomware (2026)
 
-Ghidra로 정적 분석했습니다. XChaCha20으로 파일 앞 5MB를 암호화하고 세션 키를 RSA-4096(OAEP)으로 감싸는 구조, MFT 직접 열거(`FSCTL_ENUM_USN_DATA`)로 파일을 찾는 방식, 섀도 복사본 삭제·이벤트 로그 삭제 같은 복구 방해 동작을 정리하고 IOC, YARA 룰, MITRE ATT&CK 매핑을 만들었습니다.
+Static analysis in Ghidra. The write-up covers the encryption design (XChaCha20 over the first 5MB of each file, session key wrapped with RSA-4096 OAEP), file discovery by enumerating the MFT directly (`FSCTL_ENUM_USN_DATA`), recovery inhibition such as shadow copy and event log deletion, and IOCs, a YARA rule, and MITRE ATT&CK mapping.
 
-- 분석 v2.0: [한국어](https://jcicaaa3-cloud.github.io/research/calipso-v2/) · [English](https://jcicaaa3-cloud.github.io/en/research/calipso-v2/) · [日本語](https://jcicaaa3-cloud.github.io/ja/research/calipso-v2/)
-- [분석 화면](https://jcicaaa3-cloud.github.io/evidence/) · [전체 연구 글](https://jcicaaa3-cloud.github.io/research/)
+[Analysis v2.0](https://jcicaaa3-cloud.github.io/en/research/calipso-v2/) · [Screenshots](https://jcicaaa3-cloud.github.io/en/evidence/)
 
-악성코드 원본은 공개 저장소에 올리지 않습니다.
+Malware samples are never uploaded to public repositories.
 
-## 프로젝트
+## Projects
 
 ### [LiteRaceSegNet](https://github.com/jcicaaa3-cloud/LiteRaceSegNet-FINAL-)
 
-도로 균열과 포트홀을 분할하는 경량 세그멘테이션 모델입니다. 데이터 검증부터 모델 구현, 비교 실험, 추론 API 연동까지 진행했습니다.
+A 0.125M-parameter CNN for road-damage segmentation with a boundary head. Validation mIoU 0.807 on 10 images, 3.1 ms/image on CUDA, and a 7-variant ablation. Edge quality is still weak (test boundary F1 0.058), and the README says so.
 
-- mIoU: **0.8072**
-- Parameters: **0.125M**
-- CUDA latency: **3.097 ms/image**
+### [HPLS-Eval](https://github.com/jcicaaa3-cloud/HPLS-Eval-v0.2.7)
 
-[프로젝트 정리](https://jcicaaa3-cloud.github.io/projects/literacesegnet/)
+An evaluation tool for small-mask segmentation across runtimes (CPU, GPU, NPU, TPU) and precisions (FP32, FP16, INT8). It checks which execution provider actually ran and whether an INT8 model is really quantized.
 
 ### [Financial Risk Scoring](https://github.com/jcicaaa3-cloud/financial-risk-scoring-service-FINAL)
 
-합성 재무 데이터를 사용해 데이터 처리, 시간 순서에 따른 모델 검증, FastAPI 예측 API 및 배치 추론 기능을 구현한 프로젝트입니다. 실제 투자 성과를 예측하는 서비스는 아닙니다.
+An ML backend that scores three next-quarter risk signals from quarterly company data: input validation, time-ordered evaluation, FastAPI, and monitoring reports. Synthetic data only.
 
-[프로젝트 정리](https://jcicaaa3-cloud.github.io/projects/financial-risk/)
+### [MachiLens](https://github.com/jcicaaa3-cloud/machilens-shibuya-ai-predictor)
 
-### 로봇 행동 성공·실패 평가
+A BiLSTM model that compares urban strategy scenarios for Shibuya on synthetic data, rebuilt from a class project. The random forest baseline beats it, and the README shows both.
 
-로봇이 수행한 작업을 어떤 기준으로 성공 또는 실패로 판단할 수 있는지 조사한 연구 프로젝트입니다(2026년 1학기). 80회 실험에서 나온 874건의 사례를 분석하고, 판정 기준에 따라 결과가 달라지는 문제를 살펴봤습니다.
+### Robot action success/failure evaluation
 
-[연구 요약](https://jcicaaa3-cloud.github.io/projects/robot-evaluation/)
+A research project from spring 2026 on how to judge whether a robot completed a task. I analyzed 874 cases from 80 runs and looked at how the verdict changes with the judging criterion. [Summary](https://jcicaaa3-cloud.github.io/en/projects/robot-evaluation/)
 
-## 사용한 도구
+## Tools
 
-- 악성코드 분석: Ghidra, YARA, MITRE ATT&CK, Python, PowerShell
-- 머신러닝·컴퓨터비전: PyTorch, scikit-learn, OpenCV, NumPy, Pandas
-- 개발·실험 환경: Git, Linux, FastAPI, Docker, GitHub Actions
+- Malware analysis: Ghidra, YARA, MITRE ATT&CK, Python, PowerShell
+- ML and computer vision: PyTorch, scikit-learn, OpenCV, NumPy, Pandas
+- Development: Git, Linux, FastAPI, Docker, GitHub Actions
 
-## 연락
+## Contact
 
-[개인 연구 사이트](https://jcicaaa3-cloud.github.io/)
+[jcicaaa3@gmail.com](mailto:jcicaaa3@gmail.com)
