@@ -2,7 +2,7 @@
 
 한국외국어대학교에서 컴퓨터공학을 전공하고, 동북아외교통상을 복수전공하고 있습니다.
 
-최근에는 Windows 랜섬웨어 실행 파일을 분석하고 있습니다. 이전에 진행한 컴퓨터비전·머신러닝 프로젝트와 로봇 행동 평가 연구도 함께 정리하고 있습니다.
+최근에는 Windows 랜섬웨어를 분석하고, 머신러닝 기반 악성코드 탐지를 준비하고 있습니다. 이전에 진행한 컴퓨터비전·머신러닝 프로젝트와 로봇 행동 평가 연구도 함께 정리하고 있습니다.
 
 [개인 연구 사이트](https://jcicaaa3-cloud.github.io/) · [연구 글](https://jcicaaa3-cloud.github.io/research/) · [프로젝트](https://jcicaaa3-cloud.github.io/projects/)
 
@@ -10,11 +10,10 @@
 
 ### Calipso (2026)
 
-샘플의 SHA-256을 확인한 뒤 PE 헤더, 19개 섹션, 엔트리 포인트와 함수 참조를 조사했습니다. Ghidra에서는 `DeviceIoControl` 호출과 제어 코드 `0x900B3`(`FSCTL_ENUM_USN_DATA`)를 확인했습니다. 해당 호출의 역할과 다른 코드의 연관성은 계속 분석하고 있습니다.
+Ghidra로 정적 분석했습니다. XChaCha20으로 파일 앞 5MB를 암호화하고 세션 키를 RSA-4096(OAEP)으로 감싸는 구조, MFT 직접 열거(`FSCTL_ENUM_USN_DATA`)로 파일을 찾는 방식, 섀도 복사본 삭제·이벤트 로그 삭제 같은 복구 방해 동작을 정리하고 IOC, YARA 룰, MITRE ATT&CK 매핑을 만들었습니다.
 
-- [정적 분석 기록](https://jcicaaa3-cloud.github.io/research/calipso-02/)
-- [분석 화면](https://jcicaaa3-cloud.github.io/evidence/)
-- [전체 연구 글](https://jcicaaa3-cloud.github.io/research/)
+- 분석 v2.0: [한국어](https://jcicaaa3-cloud.github.io/research/calipso-v2/) · [English](https://jcicaaa3-cloud.github.io/en/research/calipso-v2/) · [日本語](https://jcicaaa3-cloud.github.io/ja/research/calipso-v2/)
+- [분석 화면](https://jcicaaa3-cloud.github.io/evidence/) · [전체 연구 글](https://jcicaaa3-cloud.github.io/research/)
 
 악성코드 원본은 공개 저장소에 올리지 않습니다.
 
@@ -44,7 +43,7 @@
 
 ## 사용한 도구
 
-- 악성코드 분석: Ghidra, Python, PowerShell
+- 악성코드 분석: Ghidra, YARA, MITRE ATT&CK, Python, PowerShell
 - 머신러닝·컴퓨터비전: PyTorch, scikit-learn, OpenCV, NumPy, Pandas
 - 개발·실험 환경: Git, Linux, FastAPI, Docker, GitHub Actions
 
