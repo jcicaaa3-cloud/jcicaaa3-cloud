@@ -50,4 +50,4 @@
 
 ## 연락
 
-[개인 연구 사이트](https://jcicaaa3-cloud.github.io/) · [이메일](mailto:jcicaaa3@gmail.com)
+[개인 연구 사이트](https://jcicaaa3-cloud.github.io/)
